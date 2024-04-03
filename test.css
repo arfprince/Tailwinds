@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(223, 223, 252);
+}
+
+.nav{
+    background-color: rgb(61, 120, 129);
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+}
+.nav a{
+    color: rgb(10, 237, 237);
+    margin: 10px;
+}
+.nav a:hover{
+    background-color: rgb(25, 20, 120);
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: azure;
+    }
+    .nav{
+        flex-direction: column;
+        padding: 5px;
+        height: max-content;
+        text-align: center;
+        /* justify-content: start; */
+    }
+    .nav a{
+        margin: 10px;
+        padding: 5px;
+        background-color: blue;
+    }
+}
+@media screen and (min-width: 600px) and (max-width:700px){
+    body{
+        background-color: rgb(170, 39, 139);
+    }
+    .nav{
+        flex-direction: column;
+        padding: 5px;
+        height: max-content;
+        text-align: center;
+        /* justify-content: start; */
+    }
+    .nav a{
+        margin: 10px;
+        padding: 5px;
+        background-color: rgb(77, 184, 100);
+    }
+}
+@media screen and (min-width: 700px){
+    body{
+        background-color: rgb(39, 213, 213);
+    }
+    .nav{
+        flex-direction: column;
+        padding: 5px;
+        height: max-content;
+        text-align: center;
+        /* justify-content: start; */
+    }
+    .nav a{
+        margin: 10px;
+        padding: 5px;
+        background-color: rgb(17, 17, 23);
+    }
+}
