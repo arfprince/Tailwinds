@@ -17,7 +17,7 @@
                 <!-- left -->
                 <div class="flex items-center gap-12">
                     <img src="/icons/0.svg" alt="">
-                    <ul class="flex justify-center gap-12">
+                    <ul class="flex justify-center gap-12 max-lg:hidden">
                         <li> Products </li>
                         <li> Solutions </li>
                         <li> Pricing </li>
@@ -33,12 +33,12 @@
         </div>
     </header>
     <!-- hero -->
-    <section class="py-20 bg">
+    <section class="py-20">
        <div class="container">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                 <!-- left -->
                 <div class="space-y-10">
-                    <h1 class="text-7xl font-bold">
+                    <h1 class="lg:text-7xl md:text-5xl sm:text-4xl font-bold">
                         <span class="relative">
                             Teach
                             <svg class="inline absolute left-0 bottom-0 z-[-1]" width="196" height="23" viewBox="0 0 196 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <!-- right -->
-                <div class="h-[544px] relative relative">
+                <div class="h-[544px] relative">
                     <div class=" gap-[10px] text-lg flex flex-col max-w-[245px] absolute top-0 left-36 z-50">
                         <div class="flex justify-end">
                         <div class=" px-3 shadow-lg h-[45px] flex items-center rounded-t-[15px] rounded-br-[3px] rounded-bl-[15px]">
@@ -99,6 +99,37 @@
                 </div>
             </div>
        </div>
+    </section>
+    <!-- achivement setion -->
+    <section class="h-[373px] gap-20 p-20 bg-[#0F172A]">
+        <div class="container">
+            <div class="grid grid-cols-3 gap-20">
+                <!-- left -->
+                <div class="h-[229px]">
+                    <div class="flex flex-col items-center gap-7">
+                        <img src="/icons/heart-circle-sharp.svg" alt="" >
+                        <h1 class="text-7xl font-extrabold text-yellow-400">195</h1>
+                        <p class="text-2xl font-normal text-yellow-400">user countries</p>
+                    </div>
+                </div>
+                <!-- middle -->
+                <div class="h-[229px]">
+                    <div class="flex flex-col items-center gap-7">
+                        <img src="/icons/diamond.svg" alt="" >
+                        <h1 class="text-7xl font-extrabold text-yellow-400">1 M</h1>
+                        <p class="text-2xl font-normal text-yellow-400">valued teachers</p>
+                    </div>
+                </div>
+                <!-- right -->
+                <div class="h-[229px]">
+                    <div class="flex flex-col items-center gap-7">
+                        <img src="/icons/school.svg" alt="" >
+                        <h1 class="text-7xl font-extrabold text-yellow-400">17M</h1>
+                        <p class="text-2xl font-normal text-yellow-400">happy students</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
