@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html"],
-  content:["./landing_page3.html"],
+  content:["./src/landing_page3.html"],
   theme: {
     fontFamily: {
       'sans': ['Roboto', 'Arial', 'sans-serif'],
